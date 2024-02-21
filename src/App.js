@@ -1,26 +1,11 @@
-import React from "react";
-import Accordion from "./Accordion";
+import React from 'react'
 
-const items = [
-  { 
-      title:'section1',
-      content: "This is the content of section 1"
-  },
-  {
-title : "Section2",
-content: 'This is the content of section 2'
-  },
-  {
-    title: 'Secton3',
-    content: 'This is the content of section 3'
-  }
-]
-function App(){
-  return(
+const App = () => {
+  return (
     <div>
-     <Accordion items={items} />
+      <h1>Hello</h1>
     </div>
-
   )
 }
-export default App;
+
+export default App
